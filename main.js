@@ -13,16 +13,17 @@ let sıra = 0;
 function changeBackground() {
 
     //RASTGELE BİR RENK
-/*
-    const rastgeleSayi = Math.floor(Math.random() * colors.lenght);// Math.random rastgele sayı seçer_ Math.floor(Math.random() rastgele tam sayı seçer
+
+    const rastgeleSayi = Math.floor(Math.random() * colors.length);// Math.random rastgele sayı seçer_ Math.floor(Math.random() rastgele tam sayı seçer
     const secilenRenk = colors[rastgeleSayi];//rastgele renk seç
     body.style.backgroundColor = secilenRenk;
-*/
-    //sırayla arkaplan rengi seçmek için
 
+    //sırayla arkaplan rengi seçmek için
+/*
    
     if(sıra == 5) sıra = 0; // sıra dörde eşitlenince 0 dan tekrar başla
     const secilenRenk = colors[sıra];
     sıra++;
     body.style.backgroundColor = secilenRenk;
+    */
 }
